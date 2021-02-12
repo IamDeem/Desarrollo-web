@@ -1,0 +1,237 @@
+*{
+    color: white;
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+ font-family: 'Open Sans', sans-serif;
+
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+
+h3{ font-size: 32px; 
+   text-align: center;
+   margin: 10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+h5{
+   margin-bottom: 20px;
+   font-weight: normal;
+   font-size: 40px; 
+   text-align: center;
+   margin: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.containerpr{
+   background-image: url(../img/proyectos2.jpg);
+   background-position: 50% 50%;
+   background-size: cover;
+   background-attachment: fixed ;
+   background-repeat: no-repeat;
+    height: 100vh;
+ }
+
+.containergale{
+   background-image: url(../img/morado.jpg);
+   background-position: 50% 50%;
+   background-size: cover;
+   background-attachment: fixed ;
+   background-repeat: no-repeat;
+    height: 100vh;
+ }
+
+.containerr{
+  background-image: url(../img/bienvenido.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+   height: 100vh;
+}
+
+.containern{
+   background-image: url(../img/noticias.jpg);
+   background-position: 50% 50%;
+   background-size: cover;
+   background-attachment: fixed ;
+   background-repeat: no-repeat;
+    
+ }
+
+.containerqs{
+   background-image: url(../img/fondo5.jpg);
+   background-position: 50% 50%;
+   background-size: cover;
+   background-attachment: fixed ;
+   background-repeat: no-repeat;
+    
+ }
+
+.contenedor-texto{
+
+   margin-left: 512px;
+   margin-top: 250px;
+}
+.contenedor-texto .texto{
+    padding: 20px;
+    border:5px solid rgba(60, 5, 161, 0.6);
+    border-radius: 3px;
+    display:inline-block;
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+} 
+
+.nombre{
+
+font-family: 
+    Lucida Calligraphy;
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+    } 
+
+.profesion{
+
+    font-family: 
+        Lucida Calligraphy;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 50px;
+        } 
+.inicio img {
+ border-radius: 10%;
+ border: 2px solid rgba(0, 0, 0, 0.671);
+ max-height: 290px;
+ margin: 60px;
+ box-shadow: 10px 5px 5px black;
+    }
+      
+
+.titulo3{
+  
+   font-family: Lucida Calligraphy;
+   text-align: center;
+   font-size: 29px;
+   color: #f2f2f2; 
+
+   padding: 3px;
+       
+       }
+
+       
+.titulo4{
+  
+   font-family: Lucida Calligraphy;
+   text-align: center;
+   font-size: 22px;
+   color: #f2f2f2; 
+
+   padding: 3px;
+       
+       }
+
+
+
+.inicio{
+    background: url(../img/inicio1.jpg);
+    display: flex;
+    
+    
+   }
+ 
+   .inicio-i{
+       width:100%;
+       background:  rgba(0, 4, 10, 0.733);
+         margin: 40px;
+       
+         box-shadow: 10px 5px 5px black;
+   
+   }
+
+
+
+.caja-logo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: Lucida Calligraphy;
+}
+.logo{
+   width: 80px;
+   margin-left:10px;
+}
+.contenedor {
+   margin: auto; 
+   width: 100%;
+   max-width: 1250px;
+   display: flex;
+  
+   flex-wrap: wrap;
+}
+.contenedor1 {
+   margin: auto; 
+   width: 100%;
+   max-width: 1000px;
+   display: flex;
+   flex-wrap: wrap;
+}
+header{
+   width: 100%;
+   padding: 50px 0; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+header .menu a{
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+}
+header .menu a:hover{
+    text-decoration:underline;
+    color:#e6dede;
+}
+
+footer{
+   width: auto;
+   height: 80px;
+   overflow: hidden;
+   background:#000;
+   color:white;
+   padding: 20px 20px;
+   text-align: center;
+  }
+  
+  
+ 
+.btn {
+   color: #0099CC;
+   background: transparent;
+   border: 2px solid #0099CC;
+   border-radius: 6px;
+   border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 2px solid white;
+}
+.btn:hover {
+   background-color: #1c00ba;
+   color: white;
+}
